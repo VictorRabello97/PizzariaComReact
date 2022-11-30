@@ -35,3 +35,4 @@ export const GlobalStyle = createGlobalStyle`
 
 `
 
+// background: linear-gradient(to right, hsl(0, 0%, 9%), rgb(103, 107, 107)); FOOTER

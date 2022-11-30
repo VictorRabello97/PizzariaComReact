@@ -2,10 +2,7 @@ import styled from "styled-components"
 
 export const BodyContainer = styled.div `
 
-max-width: 100%;
 flex-direction: column;
-margin-left: 10rem;
-position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -13,19 +10,14 @@ top: -48rem;
 margin-top: 8rem;
 background-color: transparent;
 
-@media (max-width: 375px){
-    
-    grid-template-columns: 1fr;
-    }
-    
-
-
     
 
 .carousel {
     width: 100%;
-    max-width: 900px;
+    position: relative;
+    max-width: auto;
     margin: 0 auto;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +33,7 @@ background-color: transparent;
 .item {
     min-height: 400px;
     min-width: 400px;
-    padding: 0.9rem;
+    padding: 0.7rem;
     
 }
 
@@ -55,40 +47,89 @@ background-color: transparent;
 h1{
     font-family: 'Great Vibes';
     font-weight: 200;
-    font-size: 7rem;
+    font-size: 5rem;
     color: white;
     margin-top: 4rem;
+    border-bottom: 2px solid red;
+    border-radius: 12px;
+
 }
-
-
-
-@media (max-width: 1080px){
-
-    grid-template-columns: 1fr;
-    top: -40rem;
-
-    .carousel {
-        display: flex;
-        border-radius: 12px;
-        overflow: hidden;
-        grid-template-columns: 1fr;
-        padding: 1rem;
-
-    }
-
-    .item img {
-    width: 100%;
-    height: 80%;
-
-        }
-
-        h1{
-            font-size: 2rem;
-        }
-    }
-
- 
     
 
+    .bannerContainer {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
 
+
+    .bannerContainer img {
+        width: 100%;
+        justify-items: center;
+        border-radius: 12px;
+    }
+
+
+    ///////// MOBILE CONFIGS  ////////// 
+
+    @media (max-width: 1080px) {
+    
+        grid-template-columns: 1fr;
+        top: -40rem;
+    
+    
+        .carousel {
+            display: flex;
+            border-radius: 12px;
+            overflow: hidden;
+            padding: 1rem;
+            width: 100%;
+    
+        }
+
+    
+            .item img {
+                width: 100%;
+                height: 70%;
+                
+    
+            }
+    
+            h1{
+                font-size: 2rem;
+            }
+    
+            .bannerContainer {
+                margin-top: 4rem;
+                display: flex;
+                width: 100%;
+                
+            }
+            
+            .bannerContainer img {
+                display: flex;
+                width: 100%;
+                margin-right: 1rem;
+                justify-items: center;
+                border-radius: 12px;
+            }
+            
+        }
+    
 `
+
+
+
+
+
+        
+        
+
+
+
+
+    
+    
+    
+    

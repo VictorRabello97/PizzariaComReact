@@ -12,11 +12,27 @@ export const HeaderContainer = styled.header`
     }
 
     .container img {
-        margin-left: 8rem;
+        display: flex;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
         width: 200px;
         height: 200px;
     }
 
+    @media (max-width: 1080px) {
+        .container{
+        display: flex;
+
+    }
+
+    .container img {
+        display: flex;
+        position: absolute;
+        top: 0;
+        width: 150px;
+        height: 150px;
+}
+    }
 
 
 `

@@ -12,7 +12,7 @@ export function SideBar(){
                 <p> <Pizza className="backgroundicons" size={40} /> Pizzas</p>
                 <p ><Hamburger className="backgroundicons" size={40}/> Hamburger</p>
                 <p ><Martini className="backgroundicons" size={40} /> Bebidas </p>
-                <p><Star className="backgroundicons" size={40} /> Mais Pedidos </p>
+                <p><Star className="backgroundicons" size={40} /> Favoritos </p>
                 </div>
             
 

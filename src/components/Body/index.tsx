@@ -8,6 +8,7 @@ import ban3 from "../../assets/rotativo3.jpg"
 import ban4 from "../../assets/rotativo4.jpg"
 import ban5 from "../../assets/rotativo5.jpg"
 import ban6 from "../../assets/rotativo6.jpg"
+import banner from "../../assets/banner3.png"
 
 
 const images = [ban1, ban2, ban3, ban4, ban5, ban6]
@@ -28,9 +29,13 @@ export function Body (){
     return (
 
         <BodyContainer>
-        
 
+            <div className="bannerContainer">
+                 <img src={banner} alt="" />
+            </div>
+        
             <h1>Mais Vendidas</h1>
+
         <motion.div ref={carousel} className="carousel" whileTap={{cursor: "grabbing"}}>
 
             <motion.div className="inner"

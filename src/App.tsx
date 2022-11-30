@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <SideBar/>
       <Body/>
-      {/* <Maps/> */}
+      <Maps/>
       </div>
 
     
