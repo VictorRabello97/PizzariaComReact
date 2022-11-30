@@ -1,8 +1,8 @@
 import { HeaderContainer } from "./styles"
-import logo from "../../assets/teste1.png"
+import logo from "../../assets/logo.png"
 
 
-export function Header (){
+export function Logo (){
     return (
 
         <HeaderContainer>

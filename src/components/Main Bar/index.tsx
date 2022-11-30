@@ -1,7 +1,7 @@
 import { HeaderContainer } from "./styles"
 import { Martini, Pizza, Hamburger, Star } from "phosphor-react"
 
-export function SideBar(){
+export function MainBar(){
     return (
 
         <HeaderContainer>
