@@ -7,7 +7,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 top: -48rem;
-margin-top: 8rem;
+margin-top: 13rem;
 background-color: transparent;
 
     
@@ -54,7 +54,7 @@ h1{
     color: white;
     padding: 0.8rem;
     margin-top: 4rem;
-    border-top: 1px solid yellow;
+    border-top: 1px solid #D6D18D;
     width: 100%;
     border-radius: 55px;
 
@@ -62,7 +62,7 @@ h1{
     
 
     .bannerContainer {
-    margin-top: 7rem;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -81,21 +81,24 @@ h1{
     @media (max-width: 1080px) {
     
         grid-template-columns: 1fr;
-        top: -40rem;
-    
     
         .carousel {
             display: flex;
             border-radius: 12px;
             overflow: hidden;
-            padding: 1rem;
-            width: 100%;
-    
+            width: 100%;    
         }
 
+        .inner {
+            height: 20rem;
+        }
+
+        .item {
+            margin: 0rem -3.2rem;
+        }
     
             .item img {
-                width: 100%;
+                width: 70%;
                 height: 70%;
                 
     
@@ -106,7 +109,6 @@ h1{
             }
     
             .bannerContainer {
-                margin-top: 4rem;
                 display: flex;
                 width: 100%;
                 

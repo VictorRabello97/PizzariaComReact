@@ -1,5 +1,5 @@
 import { HeaderContainer } from "./styles"
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/logoPizzaria.png"
 
 
 export function Logo (){

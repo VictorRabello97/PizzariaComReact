@@ -15,8 +15,8 @@ export const HeaderContainer = styled.header`
         display: flex;
         margin-top: 6rem;
         margin-bottom: 6rem;
-        width: 200px;
-        height: 200px;
+        width: 17rem;
+        height: 17rem;
     }
 
     @media (max-width: 1080px) {
@@ -26,11 +26,9 @@ export const HeaderContainer = styled.header`
     }
 
     .container img {
-        display: flex;
-        position: absolute;
         top: 0;
-        width: 150px;
-        height: 150px;
+        width: 13rem;
+        height: 13rem;
 }
     }
 

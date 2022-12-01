@@ -13,7 +13,7 @@ export const MapContainer = styled.div `
         text-align: center;
         font-weight: 200;
         font-family: 'Great Vibes';
-        border-top: 1px solid yellow ;
+        border-top: 1px solid #D6D18D ;
         border-radius: 55px;
     }
     

@@ -29,10 +29,6 @@ export function Body (){
     return (
 
         <BodyContainer>
-
-            <div className="bannerContainer">
-                 <img src={banner} alt="" />
-            </div>
         
             <h1>Mais Vendidas</h1>
 
@@ -51,10 +47,11 @@ export function Body (){
             </motion.div>
 
         </motion.div>
-        <p>sdsdf</p>
+
+            <div className="bannerContainer">
+                 <img src={banner} alt="" />
+            </div>
         
-
-
         </BodyContainer>
 
         

@@ -12,9 +12,10 @@ export const GlobalStyle = createGlobalStyle`
   
     outline: 0;
     font-size: 2rem;
+    overflow-x: hidden;
 
 
-    @media (max-width: 1088px) {
+    @media (max-width: 1080px) {
             font-size: 0.7rem; 
         }
 

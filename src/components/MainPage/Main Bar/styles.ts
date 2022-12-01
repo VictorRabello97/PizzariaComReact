@@ -13,9 +13,8 @@ export const HeaderContainer = styled.div `
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    background: red;
+    background: #D6D18D;
     border-radius: 5px;
-   
 
     }
 
@@ -27,14 +26,15 @@ export const HeaderContainer = styled.div `
         justify-content: space-between;
         background: transparent;
         font-size: 0.9rem;
-        color: white;
+        color: black;
+        font-weight: 400;
         transition: 0.3s;
         font-family: 'Barlow', sans-serif;
 
 }
 
     p:hover{
-        color: yellow;
+        color: #D26C6A;
         cursor: pointer;
     }
 
@@ -52,7 +52,6 @@ export const HeaderContainer = styled.div `
         align-items: center;
         gap: 1rem;
         padding: 0.5rem;
-        background-color: red;
     }
 
     p{
