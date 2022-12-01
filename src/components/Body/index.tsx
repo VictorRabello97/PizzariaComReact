@@ -1,6 +1,6 @@
 import { BodyContainer } from "./styles"
 import React from "react"
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 import {motion} from "framer-motion"
 import ban1 from "../../assets/rotativo1.jpg"
 import ban2 from "../../assets/rotativo2.jpg"

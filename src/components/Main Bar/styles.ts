@@ -13,8 +13,8 @@ export const HeaderContainer = styled.div `
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    background: linear-gradient(to right, hsl(0, 92%, 48%), rgb(241, 231, 77));
-    border-radius: 12px;
+    background: red;
+    border-radius: 5px;
    
 
     }
@@ -24,10 +24,13 @@ export const HeaderContainer = styled.div `
         align-items: center;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         background: transparent;
-        font-weight: 200;
+        font-size: 0.9rem;
         color: white;
         transition: 0.3s;
+        font-family: 'Barlow', sans-serif;
+
 }
 
     p:hover{
@@ -49,7 +52,7 @@ export const HeaderContainer = styled.div `
         align-items: center;
         gap: 1rem;
         padding: 0.5rem;
-        background-color: transparent;
+        background-color: red;
     }
 
     p{

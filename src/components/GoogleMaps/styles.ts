@@ -7,16 +7,14 @@ export const MapContainer = styled.div `
 
     h1{
         display: flex;
-        width: 100vh;
         font-size: 5rem;
-        margin-left: 25%;
-        width: 50%;
+        justify-content: center;
         color: white;
         text-align: center;
         font-weight: 200;
         font-family: 'Great Vibes';
-        border-bottom: 2px solid red ;
-        border-radius: 12px;
+        border-top: 1px solid yellow ;
+        border-radius: 55px;
     }
     
     .nossoEspaço{

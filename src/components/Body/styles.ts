@@ -45,13 +45,18 @@ background-color: transparent;
 }
 
 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Great Vibes';
     font-weight: 200;
     font-size: 5rem;
     color: white;
+    padding: 0.8rem;
     margin-top: 4rem;
-    border-bottom: 2px solid red;
-    border-radius: 12px;
+    border-top: 1px solid yellow;
+    width: 100%;
+    border-radius: 55px;
 
 }
     

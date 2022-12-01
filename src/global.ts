@@ -9,8 +9,10 @@ export const GlobalStyle = createGlobalStyle`
   }
   
 :root{
+  
     outline: 0;
     font-size: 2rem;
+
 
     @media (max-width: 1088px) {
             font-size: 0.7rem; 

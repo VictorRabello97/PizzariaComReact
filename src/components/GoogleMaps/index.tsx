@@ -2,7 +2,6 @@ import { MapContainer } from "./styles"
 import ban1 from "../../assets/nossoEspaço1.jpg"
 import ban2 from "../../assets/nossoEspaço2.jpg"
 
-
 export function Maps(){
     return (
         

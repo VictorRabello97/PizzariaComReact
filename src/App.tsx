@@ -3,6 +3,7 @@ import { MainBar } from "./components/Main Bar"
 import { Logo } from "./components/Logo"
 import { GlobalStyle} from "./global"
 import { Maps } from "./components/GoogleMaps"
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <MainBar/>
       <Body/>
       <Maps/>
+      <Footer/>
       </div>
 
     
